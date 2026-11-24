@@ -1,0 +1,439 @@
+(node:28664) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/monthlyBalance.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ password-confirmed member deletion erases account/sessions, anonymizes all household history and retry snapshots (6715.7046ms)
+✔ owner must choose an actual successor; handover preserves shared budget and transfers recurring generation (5871.8233ms)
+✔ sole owner deletion removes the household and rules; an account without a household can delete too (3707.2725ms)
+✔ device erasure clears shared caches and only the deleting account pending entries (2.1224ms)
+✔ deletion racing a manual upload cannot retain or recreate deleted identity (4228.5865ms)
+✔ successor departure racing deletion never leaves an ownerless household (3789.814ms)
+✔ two accounts deleting concurrently cannot silently delete the shared budget after promotion (4068.3821ms)
+✔ shared money boundaries and application operations work without an HTTP context (2696.5513ms)
+✔ registration creates a durable account and an authenticated, revocable device session (5854.0071ms)
+✔ one session scheme authenticates every feature with case-insensitive Bearer and case-sensitive tokens (3330.3437ms)
+✔ protected feature groups challenge anonymous requests; public routes and repeated logout remain available (2825.9929ms)
+✔ household roles are evaluated afresh for existing sessions and never grant cross-household access (4189.8129ms)
+(node:872) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/categoryNames.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ all defaults have English and Bulgarian labels without changing stored keys (1.2707ms)
+✔ households atomically receive unique defaults before first category read, shared and persistent (6522.091ms)
+✔ migration seeds existing households without replacing budget, session, or invites (6142.6629ms)
+(node:26504) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/localization.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ successful currency change notifies every non-owner in-app and only permitted devices by push, with durable per-device delivery and dismissal (14435.6985ms)
+✔ push outage does not hide in-app notice; retries recover, and revoked consent keeps later changes in-app only (9236.8108ms)
+✔ delivery rechecks membership and consent after queueing, and account deletion erases its notification rows (8473.3108ms)
+✔ currency notification text and deep links are localized and restrict navigation to the home notice (1.0435ms)
+✔ owners manage categories, members use active keys, history and upload retries survive rename/archive (8492.029ms)
+✔ verification requires an emailed single-use secret, binds to the account, expires, and rate limits requests (3288.3893ms)
+✔ daily reminders reach only verified owners at start, seven days and one day with links, retries and durable deduplication (15294.2198ms)
+✔ paid access suppresses reminders; paid expiry uses its deadline and removes rejected device tokens (8760.5353ms)
+(node:25252) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/transactions.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ another device session sees new expense at the next sync interval and on explicit refresh (8510.9906ms)
+(node:1488) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/expense.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ expense input validates cents and calendar dates (2.7502ms)
+✔ shared expense validates, retries once, persists and keeps attribution after removal (6194.9812ms)
+✔ household creation requires authentication and validates input without creating records (3022.3298ms)
+✔ EUR is the default; owner membership and an empty budget persist across restart (6376.7196ms)
+✔ USD is supported and concurrent requests create exactly one household, membership, and budget (7016.3243ms)
+✔ migrations preserve US-01 accounts and sessions from the old EnsureCreated database (6475.7737ms)
+(node:22704) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/monthlyBalance.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ shared income validates, retries once, persists and keeps attribution after removal (11493.0663ms)
+✔ monthly balance separates dates across months and years (0.4366ms)
+(node:12016) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/invites.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ only an authenticated household owner can generate a hashed, shareable invite lasting exactly 48 hours (7052.8602ms)
+✔ one invite admits only one account even under simultaneous redemption (6330.2518ms)
+✔ expired and invalid codes cannot be redeemed and never add a member (3420.5415ms)
+✔ four-member capacity holds when different invites race for the last place (4996.8092ms)
+✔ job clock, bounded paging, retry/restart, shutdown and safe diagnostics are deterministic (2287.8266ms)
+✔ invalid typed settings fail startup before creating a database and never echo credentials (3556.0944ms)
+✔ optional store and email integrations can be explicitly disabled without blocking manual budgets (3301.4679ms)
+(node:7528) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/joinHousehold.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ join form accepts pasted codes without weakening invite validation (2.5426ms)
+✔ join errors explain expired codes and the saved household capacity (0.4934ms)
+▶ joining from a separate account opens the same shared budget and persists across devices
+  ✔ EUR (7689.9845ms)
+  ✔ USD (6968.7434ms)
+✔ joining from a separate account opens the same shared budget and persists across devices (14659.6348ms)
+(node:21304) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/categoryNames.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ Bulgarian device tags select Bulgarian, with English fallback for unsupported languages (1.2999ms)
+✔ main interface copy and dynamic translations preserve family data and whitespace (7.6162ms)
+✔ EUR and USD follow selected language instead of system region (22.2083ms)
+✔ dates and months are localized without shifting the transaction calendar date (7.6639ms)
+✔ Bulgarian date and decimal input round-trip to canonical API values (1.0985ms)
+✔ UI translation keys have Bulgarian entries and visible text is not left as English JSX (212.0099ms)
+(node:23464) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/monthlyBalance.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ new EUR and USD households use manual transactions, reports and recurring entries with no external data (7169.2754ms)
+✔ onboarding/settings expose no bank-linking flow or direct banking SDK dependency (51.1243ms)
+(node:22240) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/memberCapacity.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ tapping invite at 4 of 4 reports the limit without calling invite creation (1.1345ms)
+✔ a lower household limit offers the raise shortcut and uses refreshed capacity (0.2207ms)
+✔ available capacity generates once and failed refresh never creates an invite (0.6687ms)
+✔ server blocks invite creation at every current limit and reports capacity on redemption (4399.5146ms)
+✔ upgrading a US-03 household defaults to 4 while preserving its budget, owner, session, and pending code (3944.3039ms)
+✔ with two members, saving 3 persists the limit and admits exactly one more person (7452.9656ms)
+✔ only owners can save whole-number limits in range, never below current membership (4028.0843ms)
+✔ a limit of 1 blocks both new invites and redemption of codes issued earlier (3477.0452ms)
+✔ joining and reducing the limit concurrently always preserve membership <= limit (3822.5645ms)
+(node:12916) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/core/storage/repository.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ normalized pages remain partial, revisions invalidate all scopes, and receipts clean only acknowledged rows (11.1281ms)
+✔ report overlay includes never attempted rows and proven missing rows without counting accepted or ambiguous uploads (0.8812ms)
+✖ lightweight bootstrap, full-history reports, facets and revision-guarded pagination agree (3656.5794ms)
+✔ feature reader keeps complete reports independent of partial pages and refuses unsaved offline scopes (8.8681ms)
+(node:17016) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/core/session/sessionStore.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ mobile request decoders accept live backend auth, household, transaction, recurring and billing contracts (4552.8384ms)
+(node:10568) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/core/session/sessionStore.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ offline restoration uses verified cached identity after cleanup, without deleting credentials (4.3241ms)
+✔ failed restoration is retryable and preserves the token; actual 401 revokes it (2.1612ms)
+✔ late success from account A cannot clear or publish into account B (0.8743ms)
+✔ late 401 from account A cannot clear or publish into account B (0.3883ms)
+✔ restore results cannot replace logout or a newer login (7.1977ms)
+✔ failed credential persistence or erasure immediately blocks in-memory access (0.4607ms)
+✔ interrupted account cleanup blocks restoration and remains retryable (0.377ms)
+✔ caller cancellation before or during fetch never uses cached data (1.7674ms)
+✔ timeouts remain distinct from caller cancellation (1.2975ms)
+✔ malformed network responses and corrupt local records are not treated as offline success (0.8367ms)
+✔ transport normalizes legacy validation and ProblemDetails without losing error codes (34.3655ms)
+✔ forbidden and read-only errors never expire sessions or fall back to cache (0.7069ms)
+✔ catalog identity includes household scope even when values are identical (0.2839ms)
+✔ online identity refresh repairs corrupt identity without discarding the valid credential (0.4547ms)
+✔ a login queued during expired-token erasure survives the old 401 continuation (0.6174ms)
+✔ cancellation interrupts a native connectivity probe that has not returned (0.4321ms)
+✔ adopting a token without an identity requires restoration instead of exposing authenticated routes (2.4753ms)
+✔ known-expired credentials cannot be restored offline after secure deletion fails (1.5642ms)
+(node:5212) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/core/api/client.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ shared reads deduplicate, retain other consumers on cancellation, and separate account keys (6.5874ms)
+✔ last consumer cancellation aborts the loader and invalidation waits before a fresh read (2.8879ms)
+✔ one lifecycle timer coalesces foreground/reconnect events and does not poll hidden history (2.5501ms)
+✔ migration adopts unversioned records without changing payloads, and refuses newer schemas (2.5366ms)
+✔ failed migration rolls back schema changes and version while preserving existing records (1.669ms)
+✔ async uploader pages frozen rows, retains transient failures, and isolates account acknowledgements (33.7292ms)
+✔ privacy erasure fences queued cache writes, preserves another account queue, and is retryable (4.3445ms)
+✔ async queue survives process reopen and lost acknowledgements without recreating edited or deleted entries (3937.5172ms)
+✔ mutation invalidation cancels household reads without cancelling identity restoration (1.3038ms)
+✔ an account switch during asynchronous cache write cannot publish the old identity (1.8229ms)
+✔ an account switch during asynchronous cache decorate cannot publish the old identity (0.3379ms)
+(node:27468) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/monthlyBalance.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ monthly summary totals income and positive expenses in base minor units within calendar month (2.1479ms)
+✔ monthly summary reflects edits, deletes and pending entries without mutating input (0.3431ms)
+(node:17160) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/monthlyBalance.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ trends produce twelve chronological months with year rollover and empty gaps (1.9349ms)
+✔ trends compare income and positive expenses using base currency and calendar boundaries (0.3971ms)
+✔ trends recompute corrected and deleted entries without mutating input (0.2795ms)
+(node:6732) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/moneyConversion.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ USD expenses and income snapshot dated ECB conversion, holiday fallback, totals, export and retry durability (6934.4815ms)
+✔ signed offline quotes retain estimates after sync, reject tampering and wrong households, and edit original money consistently (4181.9114ms)
+✔ EUR to USD conversion and decimal half-cent rounding use the original currency (3901.1347ms)
+✔ migration snapshots existing manual money in the household base currency without changing totals (6427.7535ms)
+✔ authors override foreign rates with durable manual attribution, shared totals, validation and owner permissions (7375.759ms)
+✔ base-currency preview is owner-only and fetches a fresh ECB rate on every request (4518.3859ms)
+✔ base currency jobs preserve manual currency pairs through a round trip, reprice originals, convert limits and survive retry/restart (13013.6216ms)
+✔ invalid converted amounts fail the entire job without changing currency, other entries or limits (7456.7102ms)
+✔ migration preserves the currency pair of previously saved manual rates (7306.8304ms)
+(node:12720) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/outbox.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ persistent queue survives restart, isolates accounts, retains rejection, and serializes upload (35.5668ms)
+✔ lost upload response retries exactly once in budget, even after server edit or deletion (10632.0394ms)
+✔ filtered transaction pages and database reports preserve the shared snapshot contract (4325.3327ms)
+✔ receipt author migration backfills deleted transaction snapshots and readiness detects schema drift (5360.4ms)
+✔ controlled migrations reject a pending schema and allow a pre-migrated database (6581.9299ms)
+✔ request binding errors stay 400 and unexpected failures return safe ProblemDetails (3889.2625ms)
+✔ background scheduler catches up without an app, clamps dates, skips inactive rules, and never recreates edited/deleted entries (18261.6704ms)
+✔ dated ECB conversion retries failures, snapshots original USD and rounded EUR, and preserves totals and rates across restart (12616.7645ms)
+✔ invalid rate data stays pending while unrelated rules generate, then recovers (9737.7048ms)
+✔ owner edits future amounts, keeps past and overdue amounts, pauses/resumes and permanently stops without losing history (19372.2073ms)
+✔ concurrent owner changes reject stale revisions and resume skips missed pause dates (9146.9755ms)
+✔ migration preserves existing rules, original amount history and generated entries (12485.0437ms)
+✔ monthly recurring rules validate, enforce owner access, persist and calculate calendar due dates (6864.4642ms)
+✔ owner removal revokes every device immediately, frees a seat, and preserves named historical entries (6779.075ms)
+✔ members may leave, retain their account and attribution, and cannot affect a later household with an old leave request (3734.3039ms)
+✔ removal requires the household owner, cannot target another household, and cannot remove or abandon the owner (3704.936ms)
+✔ a join racing with departure uses the freed seat without exceeding the saved limit (3335.1401ms)
+(node:5788) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/budgetAccess.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ trial expiry shows 30-day countdown to every member and blocks invites and all household mutations (6802.862ms)
+✔ retention policy has exact boundaries, paid/grace/cancellation semantics and configurable durations (2305.1084ms)
+✔ offline countdown advances from cached verified dates without extending the deadline (0.4717ms)
+✔ cleanup removes expired household data and retry snapshots while retaining accounts and unrelated households (10904.0964ms)
+✔ paid households retain 90 days and custom paid retention is exposed by the back end (4027.2091ms)
+✔ retention migration scopes existing snapshots and minimizes legacy deleted-entry acknowledgments (8990.1549ms)
+✔ deletion and anonymous audit commit together, and failed reminders do not postpone cleanup (8624.128ms)
+✔ public privacy policy reflects configured trial and paid periods and a 35-day backup maximum (2849.8063ms)
+(node:17964) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/spendingByCategory.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ category spending groups expenses, sorts descending and uses base values and expense-only shares (1.9863ms)
+✔ empty and income-only months have no chart categories or invalid percentages (0.2877ms)
+✔ uncategorized grouping, equal totals and corrections remain deterministic (13.7434ms)
+(node:15860) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/spendingByMember.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ member report groups by author identity, retains former authors and excludes income and other months (14.6568ms)
+✔ member report handles empty months, pending records, edits and deletes (0.387ms)
+✔ latest expense attribution name and equal totals are deterministic without mutating entries (0.4298ms)
+(node:16624) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/annualStoreOffer.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ annual Apple purchase is server verified for one household, shared with all four members and durable through owner handover (7232.0436ms)
+✔ Google annual verification validates household, base plan, payment state, and acknowledges only verified purchases (3563.9247ms)
+✔ store failures and wrong Apple claims never activate subscriptions; reconciliation updates refunds without the app (6295.2693ms)
+✔ unconfigured billing fails closed and trial dates do not reset across restarts (8667.2176ms)
+✔ store offer selection uses only genuine annual localized prices, excluding monthly/installment and intro offers (0.6635ms)
+✔ expired trial is read-only for every member, preserving reads/privacy/export and resuming writes/recurring after verification (10454.5764ms)
+✔ cached budget access expires offline and honors paid/grace periods and revocation (0.4667ms)
+✔ retention checks pending renewal before deletion and defers cleanup on a store outage (9101.8822ms)
+✖ APP_STORE reactivation preserves records and settings, restores all members, and resumes only billing-paused schedules (5012.3282ms)
+✖ PLAY_STORE reactivation preserves records and settings, restores all members, and resumes only billing-paused schedules (5716.6755ms)
+(node:24044) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/monthlyBalance.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ authors edit/delete their transactions, enforce ownership and reject stale changes (12345.16ms)
+✔ household owners correct and delete member entries without changing attribution (4853.2283ms)
+(node:19572) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/transactionCsv.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ month CSV preserves Unicode and quoted text with signed decimal base-currency amounts (15.1983ms)
+✔ CSV neutralizes spreadsheet formulas in text while keeping amounts numeric (0.7393ms)
+✔ CSV identifies pending/offline snapshots and preserves recurring generation provenance (2.6353ms)
+✔ empty exports have headers only and invalid months are rejected (0.4185ms)
+✔ all-data export spans every month and retains original and base amounts and rates (0.4348ms)
+(node:24604) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/transactions.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ filters combine, use calendar months and author IDs, sort newest first without mutating input (15.9338ms)
+✔ household members filter shared transactions with original authors including former members (4432.9104ms)
+(node:21244) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/upcoming.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ home upcoming expenses include today and day seven, respect prices, exclude income/paused/stopped, and are shared only within the household (6716.3796ms)
+✔ upcoming handles leap/month/year boundaries, overdue cursors, advanced cursors and durable occurrence receipts (9910.7695ms)
+✔ cached upcoming display removes expired dates, includes boundaries and leaves cached data unchanged (15.1727ms)
+(node:26012) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/validation.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ mobile validation rejects missing fields and accepts a valid registration (1.3581ms)
+✔ household form defaults to EUR and accepts only named EUR or USD households (0.2751ms)
+ℹ tests 164
+ℹ suites 0
+ℹ pass 161
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 314689.9994
+
+✖ failing tests:
+
+test at tests\mobile-budget-queries.test.mjs:27:1
+✖ lightweight bootstrap, full-history reports, facets and revision-guarded pagination agree (3656.5794ms)
+  AssertionError [ERR_ASSERTION]: {"id":"2d3270a2-f089-489d-90b5-a718f9916256","authorAccountId":"9a9f88d3-3ff5-42f4-8caa-90fbe762d1f4","authorName":"Owner","amountMinor":-100,"description":"","occurredOn":"2026-11-01","category":"Groceries","type":"Expense","revision":"A18EF5A385C0A473463179254106B54948D8A6D9CE25A3B13A716D9AC3E9E697","recurringRuleId":null,"recurringDueDate":null,"originalAmountMinor":100,"originalCurrency":"EUR","exchangeRate":1,"rateDate":"2026-11-01","rateSource":"Same currency","estimatedRate":false,"manualRate":null,"manualRateFrom":null,"manualRateTo":null}
+  
+  201 !== 200
+  
+      at TestContext.<anonymous> (file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/tests/mobile-budget-queries.test.mjs:29:253)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 201,
+    expected: 200,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\subscriptions.test.mjs:278:49
+✖ APP_STORE reactivation preserves records and settings, restores all members, and resumes only billing-paused schedules (5012.3282ms)
+  AssertionError [ERR_ASSERTION]: reactivation only changes access and active rule cursors
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      Budgets: [
+        [Object: null prototype] {
+          HouseholdId: '4C2CCC8F-33B1-49C6-BD1B-C994871B93B6',
+          Id: 'BC5E9DD6-BCFD-49BA-B563-8E1376C2D55C'
+  ...
+          CurrencyRevision: 0,
+  +       DataRevision: 27,
+  -       DataRevision: 26,
+          Id: '4C2CCC8F-33B1-49C6-BD1B-C994871B93B6',
+          MemberLimit: 3,
+          Name: 'Keep our family'
+        }
+      ],
+  
+      at TestContext.<anonymous> (file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/tests/subscriptions.test.mjs:320:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: {
+      Entries: [ [Object] ],
+      Categories: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      Memberships: [ [Object], [Object] ],
+      Households: [ [Object] ],
+      Budgets: [ [Object] ],
+      RecurringAmounts: [ [Object], [Object], [Object], [Object], [Object] ],
+      RecurringChanges: [ [Object], [Object] ],
+      RecurringOccurrences: [ [Object] ]
+    },
+    expected: {
+      Entries: [ [Object] ],
+      Categories: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      Memberships: [ [Object], [Object] ],
+      Households: [ [Object] ],
+      Budgets: [ [Object] ],
+      RecurringAmounts: [ [Object], [Object], [Object], [Object], [Object] ],
+      RecurringChanges: [ [Object], [Object] ],
+      RecurringOccurrences: [ [Object] ]
+    },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\subscriptions.test.mjs:278:49
+✖ PLAY_STORE reactivation preserves records and settings, restores all members, and resumes only billing-paused schedules (5716.6755ms)
+  AssertionError [ERR_ASSERTION]: reactivation only changes access and active rule cursors
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      Budgets: [
+        [Object: null prototype] {
+          HouseholdId: '0FADDB12-DEE5-4569-B61F-8B4C04C7F9FD',
+          Id: 'DC7B8DA4-32F4-4D58-8E5F-CBF8985C0768'
+  ...
+          CurrencyRevision: 0,
+  +       DataRevision: 27,
+  -       DataRevision: 26,
+          Id: '0FADDB12-DEE5-4569-B61F-8B4C04C7F9FD',
+          MemberLimit: 3,
+          Name: 'Keep our family'
+        }
+      ],
+  
+      at TestContext.<anonymous> (file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/tests/subscriptions.test.mjs:320:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1208:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:831:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: {
+      Entries: [ [Object] ],
+      Categories: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      Memberships: [ [Object], [Object] ],
+      Households: [ [Object] ],
+      Budgets: [ [Object] ],
+      RecurringAmounts: [ [Object], [Object], [Object], [Object], [Object] ],
+      RecurringChanges: [ [Object], [Object] ],
+      RecurringOccurrences: [ [Object] ]
+    },
+    expected: {
+      Entries: [ [Object] ],
+      Categories: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      Memberships: [ [Object], [Object] ],
+      Households: [ [Object] ],
+      Budgets: [ [Object] ],
+      RecurringAmounts: [ [Object], [Object], [Object], [Object], [Object] ],
+      RecurringChanges: [ [Object], [Object] ],
+      RecurringOccurrences: [ [Object] ]
+    },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,58 @@
+(node:25784) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/core/storage/repository.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ normalized pages remain partial, revisions invalidate all scopes, and receipts clean only acknowledged rows (11.8235ms)
+✔ report overlay includes never attempted rows and proven missing rows without counting accepted or ambiguous uploads (1.0841ms)
+✔ lightweight bootstrap, full-history reports, facets and revision-guarded pagination agree (5809.6899ms)
+✔ feature reader keeps complete reports independent of partial pages and refuses unsaved offline scopes (6.739ms)
+(node:26436) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/core/session/sessionStore.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ mobile request decoders accept live backend auth, household, transaction, recurring and billing contracts (4896.8181ms)
+(node:15720) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/core/session/sessionStore.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ offline restoration uses verified cached identity after cleanup, without deleting credentials (4.9523ms)
+✔ failed restoration is retryable and preserves the token; actual 401 revokes it (7.0288ms)
+✔ late success from account A cannot clear or publish into account B (1.3016ms)
+✔ late 401 from account A cannot clear or publish into account B (0.5527ms)
+✔ restore results cannot replace logout or a newer login (9.6632ms)
+✔ failed credential persistence or erasure immediately blocks in-memory access (0.6483ms)
+✔ interrupted account cleanup blocks restoration and remains retryable (0.5537ms)
+✔ caller cancellation before or during fetch never uses cached data (3.7491ms)
+✔ timeouts remain distinct from caller cancellation (1.9026ms)
+✔ malformed network responses and corrupt local records are not treated as offline success (1.9539ms)
+✔ transport normalizes legacy validation and ProblemDetails without losing error codes (41.7112ms)
+✔ forbidden and read-only errors never expire sessions or fall back to cache (0.9077ms)
+✔ catalog identity includes household scope even when values are identical (0.4888ms)
+✔ online identity refresh repairs corrupt identity without discarding the valid credential (0.5555ms)
+✔ a login queued during expired-token erasure survives the old 401 continuation (0.6448ms)
+✔ cancellation interrupts a native connectivity probe that has not returned (0.4727ms)
+✔ adopting a token without an identity requires restoration instead of exposing authenticated routes (0.3917ms)
+✔ known-expired credentials cannot be restored offline after secure deletion fails (0.3924ms)
+(node:20420) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///C:/Users/evgen/OneDrive/Documents/ChatGPT/Household%20manager/mobile/src/core/api/client.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to C:\Users\evgen\OneDrive\Documents\ChatGPT\Household manager\mobile\package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ shared reads deduplicate, retain other consumers on cancellation, and separate account keys (7.7287ms)
+✔ last consumer cancellation aborts the loader and invalidation waits before a fresh read (3.1002ms)
+✔ one lifecycle timer coalesces foreground/reconnect events and does not poll hidden history (2.4158ms)
+✔ migration adopts unversioned records without changing payloads, and refuses newer schemas (3.0863ms)
+✔ failed migration rolls back schema changes and version while preserving existing records (1.3095ms)
+✔ async uploader pages frozen rows, retains transient failures, and isolates account acknowledgements (33.9936ms)
+✔ privacy erasure fences queued cache writes, preserves another account queue, and is retryable (3.7657ms)
+✔ async queue survives process reopen and lost acknowledgements without recreating edited or deleted entries (4588.0734ms)
+✔ mutation invalidation cancels household reads without cancelling identity restoration (2.3028ms)
+✔ an account switch during asynchronous cache write cannot publish the old identity (2.3529ms)
+✔ an account switch during asynchronous cache decorate cannot publish the old identity (0.6721ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6051.9069
